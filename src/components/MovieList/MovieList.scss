@@ -1,0 +1,43 @@
+.listHeader {
+  margin: 10px 10px 0px 10px;
+  padding: 10px;
+
+  border-radius: 5px;
+  border: 1px solid rgb(30, 30, 30);
+  // box-shadow: black 0px 3px 10px;
+
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  &:hover {
+    cursor: grab;
+  }
+  &:active {
+    cursor: grabbing;
+  }
+
+  padding: 13px;
+}
+
+.legend {
+  display: flex;
+  gap: 13px;
+  flex-wrap: wrap;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  margin: 0px 20px 0px 20px;
+}
+.movieItem {
+  padding: 10px;
+}
